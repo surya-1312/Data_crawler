@@ -131,7 +131,7 @@ for i in key:
     if i=="about":
         ind=key.index('about')
         about=about1(value[ind])
-        if len(expe)==0:
+        if len(about)==0:
             print(None)
         else:
             dic["about"]= about
