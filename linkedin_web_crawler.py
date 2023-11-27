@@ -15,12 +15,7 @@ driver.find_element(By.XPATH, "//*[@id='password']").send_keys("Surya@2201")
 driver.find_element(By.XPATH, "//*[@id='organic-div']/form/div[3]/button").click()
 sleep(10)
 
-url='https://www.linkedin.com/in/subhadeep-banerjee/'
-#url='https://www.linkedin.com/in/supriyapatra/'
-#url='https://www.linkedin.com/in/reya-ghosh-a19542173/'
-#url='https://www.linkedin.com/in/sourav-sarkar-85a981158/'
-#url='https://www.linkedin.com/in/shreyosi-roy-615972147/'
-#url='https://www.linkedin.com/in/priyanka-sen-a7484815a/'
+url=''
 
 driver.get(url)
 sleep(2)
