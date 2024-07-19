@@ -11,7 +11,7 @@ driver = webdriver.Chrome()
 driver.get("https://linkedin.com/uas/login")
 sleep(2)
 driver.find_element(By.XPATH, "//*[@id='username']").send_keys("surya@klizos.com")
-driver.find_element(By.XPATH, "//*[@id='password']").send_keys("Surya@2201")
+driver.find_element(By.XPATH, "//*[@id='password']").send_keys("")
 driver.find_element(By.XPATH, "//*[@id='organic-div']/form/div[3]/button").click()
 sleep(10)
 
